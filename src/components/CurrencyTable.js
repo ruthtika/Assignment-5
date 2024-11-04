@@ -37,7 +37,7 @@ const CurrencyTable = () => {
       justifyContent: 'center', 
       alignItems: 'center' 
     }}>
-      <table style={{ textAlign: 'center', fontSize: '1.5em', marginBottom: '20px', borderSpacing: '30px 10px' }}>
+      <table style={{ textAlign: 'center', fontSize: '1.3em', marginBottom: '10px', borderSpacing: '30px 10px' }}>
         <thead>
           <tr>
             <th>Currency</th>
@@ -57,7 +57,7 @@ const CurrencyTable = () => {
           ))}
         </tbody>
       </table>
-      <p style={{ textAlign: 'center', fontSize: '1.1em' }}>
+      <p style={{ textAlign: 'center', fontSize: '1em' }}>
         Rates are based from 1 USD.<br />
         This application uses API from <a href="https://currencyfreaks.com" style={{ color: '#fff' }}>https://currencyfreaks.com</a>.
       </p>
